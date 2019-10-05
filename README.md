@@ -10,6 +10,8 @@ import ColorCompatibility
 myView.backgroundColor = ColorCompatibility.label
 ```
 
+You can read more about this project [here](https://noahgilmore.com/blog/color-compatibility-pod).
+
 [![Version](https://img.shields.io/cocoapods/v/ColorCompatibility.svg?style=flat)](https://cocoapods.org/pods/ColorCompatibility)
 [![License](https://img.shields.io/cocoapods/l/ColorCompatibility.svg?style=flat)](https://cocoapods.org/pods/ColorCompatibility)
 [![Platform](https://img.shields.io/cocoapods/p/ColorCompatibility.svg?style=flat)](https://cocoapods.org/pods/ColorCompatibility)
