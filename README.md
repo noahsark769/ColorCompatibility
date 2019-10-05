@@ -29,6 +29,8 @@ it, simply add the following line to your Podfile:
 pod 'ColorCompatibility'
 ```
 
+If you'd prefer not to use Cocoapods, I recommend copy and pasting the `ColorCompatibility.swift` code directly into your project. It's only one file 👍
+
 ## Author
 
 Noah Gilmore, https://noahgilmore.com/blog
