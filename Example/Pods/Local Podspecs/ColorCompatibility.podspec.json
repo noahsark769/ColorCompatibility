@@ -17,7 +17,7 @@
   },
   "social_media_url": "https://twitter.com/noahsark769",
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
-  "source_files": "ColorCompatibility/Classes/**/*"
+  "source_files": "ColorCompatibility.swift"
 }

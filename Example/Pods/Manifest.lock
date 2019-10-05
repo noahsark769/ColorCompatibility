@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ColorCompatibility: 113ac6e6cf5d1136aa542d8f14d27beb40fdad85
+  ColorCompatibility: dc24cd69af13a6ed68cfd9b1ab977fdc6dac7415
 
 PODFILE CHECKSUM: cca58265740ac80f38b622a476d198a5d2305477
 

@@ -20,7 +20,7 @@ In iOS 13, Apple introduced a bunch of new system colors (label, systemBackgroun
   s.source           = { :git => 'https://github.com/noahsark769/ColorCompatibility.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/noahsark769'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ColorCompatibility/Classes/**/*'
+  s.source_files = 'ColorCompatibility.swift'
 end
