@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ColorCompatibility_Example' do
+  pod 'ColorCompatibility', :path => '../'
+
+  target 'ColorCompatibility_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
