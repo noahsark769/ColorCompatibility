@@ -1,3 +1,5 @@
+import UIKit
+
 public enum ColorCompatibility {
     public static var label: UIColor {
         if #available(iOS 13, *) {
@@ -107,12 +109,66 @@ public enum ColorCompatibility {
         }
         return UIColor(red: 0.0, green: 0.47843137254901963, blue: 1.0, alpha: 1.0)
     }
+	public static var systemBlue: UIColor {
+		if #available(iOS 13, *) {
+			return .systemBlue
+		}
+		return UIColor(red: 0.0, green: 0.4784313725, blue: 1.0, alpha: 1.0)
+	}
+	public static var systemGreen: UIColor {
+		if #available(iOS 13, *) {
+			return .systemGreen
+		}
+		return UIColor(red: 0.2039215686, green: 0.7803921569, blue: 0.3490196078, alpha: 1.0)
+	}
     public static var systemIndigo: UIColor {
         if #available(iOS 13, *) {
             return .systemIndigo
         }
         return UIColor(red: 0.34509803921568627, green: 0.33725490196078434, blue: 0.8392156862745098, alpha: 1.0)
     }
+	public static var systemOrange: UIColor {
+		if #available(iOS 13, *) {
+			return .systemOrange
+		}
+		return UIColor(red: 1.0, green: 0.5843137255, blue: 0.0, alpha: 1.0)
+	}
+	public static var systemPink: UIColor {
+		if #available(iOS 13, *) {
+			return .systemPink
+		}
+		return UIColor(red: 1.0, green: 0.1764705882, blue: 0.3333333333, alpha: 1.0)
+	}
+	public static var systemPurple: UIColor {
+		if #available(iOS 13, *) {
+			return .systemPurple
+		}
+		return UIColor(red: 0.6862745098, green: 0.3215686275, blue: 0.8705882353, alpha: 1.0)
+	}
+	public static var systemRed: UIColor {
+		if #available(iOS 13, *) {
+			return .systemRed
+		}
+		return UIColor(red: 1.0, green: 0.231372549, blue: 0.1882352941, alpha: 1.0)
+	}
+	public static var systemTeal: UIColor {
+		if #available(iOS 13, *) {
+			return .systemTeal
+		}
+		return UIColor(red: 0.3529411765, green: 0.7843137255, blue: 0.9803921569, alpha: 1.0)
+	}
+	public static var systemYellow: UIColor {
+		if #available(iOS 13, *) {
+			return .systemYellow
+		}
+		return UIColor(red: 1.0, green: 0.8, blue: 0.0, alpha: 1.0)
+	}
+	public static var systemGray: UIColor {
+		if #available(iOS 13, *) {
+			return .systemGray
+		}
+		return UIColor(red: 0.5568627451, green: 0.5568627451, blue: 0.5568627451, alpha: 1.0)
+	}
     public static var systemGray2: UIColor {
         if #available(iOS 13, *) {
             return .systemGray2
