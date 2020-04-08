@@ -1,3 +1,5 @@
+import UIKit
+
 public enum ColorCompatibility {
     public static var label: UIColor {
         if #available(iOS 13, *) {

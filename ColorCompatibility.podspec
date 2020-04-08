@@ -22,6 +22,6 @@ In iOS 13, Apple introduced a bunch of new system colors (label, systemBackgroun
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ColorCompatibility.swift'
+  s.source_files = 'Sources/ColorCompatibility.swift'
   s.swift_versions = ['3.2', '4.0', '4.1', '4.2', '5.0', '5.1']
 end
