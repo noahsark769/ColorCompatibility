@@ -26,6 +26,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### CocoaPods
 ColorCompatibility is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
@@ -33,7 +34,18 @@ it, simply add the following line to your Podfile:
 pod 'ColorCompatibility'
 ```
 
-If you'd prefer not to use Cocoapods, I recommend copy and pasting the `ColorCompatibility.swift` code directly into your project. It's only one file 👍
+### Swift Package Manager
+ColorCompatability is available as a Swift package. To install, add `https://github.com/noahsark769/ColorCompatibility.git` as a package dependency in Xcode for a version >= 1.0.1, or as a dependency of another package:
+
+```
+let package = Package(
+    dependencies: [
+        .package(url: "https://github.com/noahsark769/ColorCompatibility.git", ...)
+    ]
+)
+```
+
+If you'd prefer not to use Cocoapods or SPM, I recommend copy and pasting the `ColorCompatibility.swift` code directly into your project. It's only one file 👍
 
 ## Author
 
