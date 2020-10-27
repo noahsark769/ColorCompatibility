@@ -47,6 +47,9 @@ let package = Package(
 
 If you'd prefer not to use Cocoapods or SPM, I recommend copy and pasting the `ColorCompatibility.swift` code directly into your project. It's only one file 👍
 
+## Notes
+When dropping in `UIColor` in place of `ColorCompatibility` when your app drops support for iOS 12, it's not strictly guaranteed that all colors behave the same way: for example, in iOS 13, system colors adapt to display differently when they're in an "elevated" context, like the background color of a view controller presented modally. For more information on elevated colors, see [the Human Interface Guidelines on Dark Mode](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/dark-mode/).
+
 ## Author
 
 Noah Gilmore, https://noahgilmore.com/blog
