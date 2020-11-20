@@ -1,5 +1,5 @@
 PODS:
-  - ColorCompatibility (0.1.0)
+  - ColorCompatibility (1.1.0)
 
 DEPENDENCIES:
   - ColorCompatibility (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ColorCompatibility: dc24cd69af13a6ed68cfd9b1ab977fdc6dac7415
+  ColorCompatibility: 7257750b5ac742db9c8b593966c6f8e06992149b
 
 PODFILE CHECKSUM: cca58265740ac80f38b622a476d198a5d2305477
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.10.0

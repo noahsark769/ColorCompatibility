@@ -1,6 +1,0 @@
-framework module Pods_ColorCompatibility_Example {
-  umbrella header "Pods-ColorCompatibility_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
