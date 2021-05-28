@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "ColorCompatibility",
     platforms: [
-        .iOS(.v8),
+        .iOS(.v9),
         .tvOS(.v9),
     ],
     products: [
